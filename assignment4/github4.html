@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		assignment-4
+	</title>
+</head>
+<body>
+<fieldset>
+
+	<legend>
+		STUDENT PERSONAL INFO
+	</legend>
+	<form id="myForm">
+		Name  <input type="text" name="name" style="width: 30%">
+	<br>
+	<br>
+	Id  <input type="text" name="Id" style="width: 30%">
+	<br>
+	<br>
+	Gender : Male<input type="radio" name="x">
+	Female<input type="radio" name="x">
+	Other<input type="radio" name="x">
+	<br>
+	<br>
+	Email <input type="Email" name="Email" id="myInput">
+	<br>
+	<br>
+	City <input type="text" name="city" style="width: 30%">
+	<br>
+	<br>
+	Blood Group <input type="text" name="bg">
+	<br>
+	<br>
+	<input type="submit" name="submit">
+	</form>
+	
+</fieldset>
+	<script type="text/javascript">
+var x = document.getElementById("myForm");
+x.addEventListener("focus", myFocusFunction, true);
+x.addEventListener("blur", myBlurFunction, true);
+
+function myFocusFunction() {
+  document.getElementById("myInput").style.backgroundColor = "yellow";  
+}
+
+function myBlurFunction() {
+  document.getElementById("myInput").style.backgroundColor = "";  
+}
+</script>
+</body>
+</html>
