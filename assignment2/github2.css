@@ -1,0 +1,36 @@
+body{
+background: green;
+}
+table{
+	border: solid yellow;
+	border-collapse: collapse;
+	align-self: center;
+}
+tr{
+	padding: 2px;
+	border: solid yellow;
+}
+td{
+	padding: 2px;
+	color: pink;
+	border: solid yellow;
+}
+th{
+	padding: 2px;
+	color: white;
+	border: solid yellow;
+}
+div{
+	font-size: 18px;
+	color: white;
+}
+h1{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+.img{
+	height: 200px;
+	width: 50%;
+	align-self: center;
+}
